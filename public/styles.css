@@ -1,0 +1,130 @@
+body {
+  background: #7F95D1;
+}
+
+.btn {
+  border-radius: 3px;
+  border: none;
+  margin: 0 1px;
+}
+
+.btn-success {
+  margin: 5px 1px;
+  padding: 10px 50px;
+  background-color: #91CB3E;
+}
+.btn-success:hover {
+  background-color: #84B939;
+}
+
+.btn-primary {
+  background-color: #FFD045;
+}
+.btn-primary:hover {
+  background-color: #FFBF00;
+}
+
+.btn-danger {
+  background-color: ##BF211E;
+}
+.btn-danger:hover {
+  background-color: #AE1E1C;
+}
+
+.time-display {
+  font-size: 3em;
+  color: #D6EBF7;
+}
+
+.time-slider {
+  display: block;
+}
+
+
+
+/* 
+RANGE STYLE thanks to http://danielstern.ca/range.css/#/ 
+*/
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 3.05px 0;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 11.9px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0.6px #000000, 0px 0px 0px #0d0d0d;
+  background: #9CBF6A;
+  border: 0.5px solid #70cd25;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  border: 0px solid rgba(0, 0, 0, 0);
+  height: 18px;
+  width: 18px;
+  border-radius: 18px;
+  background: #BF211E;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -3.55px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #e4fdeb;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 11.9px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0.6px #000000, 0px 0px 0px #0d0d0d;
+  background: #9CBF6A;
+  border: 0.5px solid #70cd25;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  border: 0px solid rgba(0, 0, 0, 0);
+  height: 18px;
+  width: 18px;
+  border-radius: 18px;
+  background: #BF211E;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 11.9px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #98f9b1;
+  border: 0.5px solid #70cd25;
+  border-radius: 8.8px;
+  box-shadow: 0px 0px 0.6px #000000, 0px 0px 0px #0d0d0d;
+}
+input[type=range]::-ms-fill-upper {
+  background: #9CBF6A;
+  border: 0.5px solid #70cd25;
+  border-radius: 8.8px;
+  box-shadow: 0px 0px 0.6px #000000, 0px 0px 0px #0d0d0d;
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  border: 0px solid rgba(0, 0, 0, 0);
+  height: 18px;
+  width: 18px;
+  border-radius: 18px;
+  background: #BF211E;
+  cursor: pointer;
+  height: 11.9px;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #9CBF6A;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #e4fdeb;
+}
